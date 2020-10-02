@@ -1,0 +1,10 @@
+JS Engine - V8 (Most popular) - Chrome
+Spidy Monkey is also there - Mozilla
+
+ECMAscript - ES6
+
+
+Variables ::
+
+var, let, const
+We donot need to define the datatype of the variable
