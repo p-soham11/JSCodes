@@ -3,6 +3,9 @@
 // 2. let
 // 3. const
 
+// const datatype will not allow us to modify the data
+// In this case, we cannot change nationality
+
 var name = "Soham Pal";
 
 var age;
@@ -19,8 +22,8 @@ console.log(5+5);  // Output : 10
 console.log(5 + "5");  // Output : 55
 
 // Another way of displaying : 
-
+// This is called template literals.
 console.log(`
     ${name} is ${age} years old,
     Who is an ${nationality}.
-`)
+`) 
