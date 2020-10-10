@@ -8,3 +8,6 @@ Variables ::
 
 var, let, const
 We donot need to define the datatype of the variable
+
+Context of JS differs on running the file in browser and terminal.
+'window' is a browser only context
