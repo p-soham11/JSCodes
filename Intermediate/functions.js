@@ -16,3 +16,37 @@ console.log(status);
 
 // Another way of calling the function and printing directly.
 console.log(sayHello(name));
+
+
+// Another Example : 
+
+/* 
+Define a function that can answer the role of a user.
+A user can be on the following roles :
+    admin - with all access
+    subadmin - with access to create or delete courses
+    testprep - with access to create or delete tests
+    user - consume all content
+    other - trial user
+
+Name and Role will be given by user.
+*/
+
+function getUserRole(name, role) {
+
+    switch(role) {
+        case "admin":
+            return `${name} is an admin with all access.`;
+        case "subadmin":
+            return `${name} is sub-admin with access to create or delete courses.`;
+        case "testprep":
+            return `${name} is test-prep with access to create or delete tests.`;
+        case "user":
+            return `${name} is an user who can consume all contents.`;
+        default:
+            return `Hello ${name}. Let's start your trial ;)`;
+    }
+}
+
+var access = getUserRole("Soham", "user");
+console.log(access);
