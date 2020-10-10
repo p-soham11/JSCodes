@@ -6,6 +6,7 @@ var b = 25;
 // As it is an relational operator, result stores boolean values.
 var result = a > b;
 console.log(result);    // Output :   false
+// typeof Keyword is used to get the datatype
 console.log("Datatype : " + typeof result);
 
 // Calculating Discount
