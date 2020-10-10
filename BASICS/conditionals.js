@@ -15,6 +15,17 @@ else {
     }
 }
 
+// Conditional Check
+
+var data = "5";
+// Operator == checks the variables loosely
+if(data == 5)
+console.log("Data can be Integer or String")
+//  Operator  === also checks the datatype of the variabe
+if(data === "5")
+console.log("Data is sure an String")
+
+
 // In case for login through different platforms
 
 var email = false
@@ -36,6 +47,7 @@ else
 var authenticated = false;
 
 authenticated ? console.log("You are Authenticated") : console.log("You are not authenticated");
+
 
 
 // Switch Statement
