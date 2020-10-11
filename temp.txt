@@ -11,3 +11,14 @@ We donot need to define the datatype of the variable
 
 Context of JS differs on running the file in browser and terminal.
 'window' is a browser only context
+
+// RUN in Browser Console.
+
+var myName = "Soham";
+if (myName === myName) { console.log("It's a true statement");}
+
+// Now replace line 2, with the following : 
+if (myName === window.myName) { console.log("It's a true statement");}
+// OUTPUT : It's a true statement.
+
+// The modified line will not be executed in terminal. As window is a browser only context
