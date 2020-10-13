@@ -1,3 +1,6 @@
+This file contains some temporary notes.
+These will be finalized later
+
 JS Engine - V8 (Most popular) - Chrome
 Spidy Monkey is also there - Mozilla
 
