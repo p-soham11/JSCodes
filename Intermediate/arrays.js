@@ -17,6 +17,9 @@ random.push("Memories");
 console.log(random);
 console.log();
 
+// We can also change the elements directly using index numbers
+countries[1] = "Japan";
+
 // Deleting Element from the end of an Array
 // 'pop' deletes the last element of the array
 // 'pop' function doesnot accept any parameters
@@ -31,3 +34,16 @@ console.log(`Countries : ${countries}`);    // Inserts "USA" at the beginning of
 // Deleting elements from the beginning of an array
 countries.shift();
 console.log(`Countries : ${countries}`);    // Deletes "USA" from the front
+
+
+// We can also get to know the index of elements
+console.log(countries.indexOf("India"));    // India is in 0th Index
+// If the element is not present in the array, it returns -1 value
+
+
+// Application
+
+if(countries.indexOf("Mexico") >= 0)
+    console.log("Mexico is Present.");
+else
+    console.log("Mexico is NOT Present.")
