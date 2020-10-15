@@ -47,3 +47,24 @@ if(countries.indexOf("Mexico") >= 0)
     console.log("Mexico is Present.");
 else
     console.log("Mexico is NOT Present.")
+
+
+//  EXTRA
+
+var isEven = (data) => {       // Implementing arrow function
+    return data % 2 === 0;
+}
+// It's passing the reference of isEven
+// 'result' will be true only if all the conditions return true
+// TRY changing any number an odd
+// 'every' keyword loops through each element of the array
+var result = [2,4,6,8].every(isEven);
+console.log(result);
+
+
+// Callback Function
+
+// Notice we are not using return here
+// Using return will require '{ }'
+var output = [2,8,12,65].every((data) => data % 2 === 0);
+console.log(output);
