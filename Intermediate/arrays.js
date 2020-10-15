@@ -49,8 +49,14 @@ else
     console.log("Mexico is NOT Present.")
 
 
-//  EXTRA
+// 'Fill' in Array
 
+var testArray = [2,4,6,8,10,12,14,16,18];
+console.log(testArray.fill("X",2,6));
+// Replaces the array elements with 'X' from index 2 to less than 6
+// If we just pass "X" without index values, it will fill entire array with "X"
+
+//  EXTRA
 var isEven = (data) => {       // Implementing arrow function
     return data % 2 === 0;
 }
