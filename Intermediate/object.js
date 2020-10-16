@@ -11,10 +11,10 @@ var person = {
     skills : [],
     addSkill : function(skill) {
         this.skills.push(skill);
-        console.log("Skill Added");
+        return("Skill Added");
     },
     showSkills : function() {
-        console.log(`${this.name} has ${this.skills.length} skills.`);
+        return(`${this.name} has ${this.skills.length} skills.`);
     }
 }
 // '.' operator is used to access the underlying property of object
