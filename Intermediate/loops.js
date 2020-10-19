@@ -36,10 +36,28 @@ console.log();
 // This will execute the code atleast once even if the condition is unsatisfied
 // It's beacuse it execute the code before checking the condition
 console.log("Using Do-While Loops : ")
-let i=0;
+i=0;
 do{
     if ( typeof cities[i] === "string") {
         console.log(cities[i]);
     }
     i++;    // Incrementing the counter variable   
 } while(i < cities.length);
+console.log();
+
+
+// Out of the Box
+var j = 0;
+for(;;) {
+    if(j > 3) break;
+    console.log(j);
+    j++;
+}
+console.log();
+
+
+// Using For-Each :
+console.log("Using For Each :")
+// It's a call back function iterating through every element
+cities.forEach( data => console.log(data));
+console.log();
