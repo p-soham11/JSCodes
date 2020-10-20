@@ -1,0 +1,42 @@
+body{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: "Poppins", sans-serif;
+    background-image: url("./cdt.jpg");
+    background-size: cover;
+    background-position-y: 22%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 55vh;
+}
+
+h1{
+    font-size: 4rem;
+    color: #0e153a;
+}
+
+.ctd{
+    display: flex;
+}
+
+.bigtxt{
+    font-size: 5.6rem;
+    margin-bottom: 1.5rem;
+    line-height: 1;
+    color: #f3558e;
+
+}
+.space {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    text-align: center;
+}
+
+.space span{
+    font-size: 1.5rem;
+    color: #1f4287;
+}
