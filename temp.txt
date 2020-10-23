@@ -25,7 +25,3 @@ if (myName === window.myName) { console.log("It's a true statement");}
 // OUTPUT : It's a true statement.
 
 // The modified line will not be executed in terminal. As window is a browser only context
-
-
-// Make function for 0 in Timer project
-
