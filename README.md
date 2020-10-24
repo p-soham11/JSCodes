@@ -1,8 +1,6 @@
 ## Welcome to **JSCodes**
 
-##### This is a repository in making and it  includes all the basics of JavaScript with some *mini* projects.
-
-##### You can either download the zip file or clone this repository in your local machine using the following command in your terminal
+##### This is a repository in making and it  includes all the basics of JavaScript with some *mini* projects. You can either download the zip file or clone this repository in your local machine using the following command in your terminal
 
 ```
 git clone https://github.com/p-soham11/JSCodes.git
