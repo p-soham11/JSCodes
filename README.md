@@ -1,12 +1,21 @@
-# JSCodes
+## Welcome to **JSCodes**
 
-___
+##### This is a repository in making and it  includes all the basics of JavaScript with some *mini* projects.
 
-### Welcome to JSCodes. This is a Repository in making, for the beginners in JavaScript
+##### You can either download the zip file or clone this repository in your local machine using the following command in your terminal
 
-### This includes all the basics of JavaScript with some *mini* projects.
+```
+git clone https://github.com/p-soham11/JSCodes.git
+```
 
-#### To clone this repository in your local machine, run the following command in your terminal
+Get started with JavaScript inf the following order : 
 
-> git clone https://github.com/p-soham11/JSCodes.git
+1. BASICS
+2. Intermediate
+3. countdown_Timer (*optional*)
+
+Rest of the codes and projects will be getting updated and each directory will have their own README.md file as well for better understanding.
+If you want to contribute, feel free to create issues. And if find this helpful don't forget to *star* this repository
+
+Feel free to follow me on [LinkedIn](https://www.linkedin.com/in/soham-pal-87393a182/)
 
