@@ -8,12 +8,12 @@ This mini project shows the time remaining for the upcoming New Year's Eve. Time
 
 <p align="center"><a href="https://github.com/p-soham11/JSCodes/tree/main/countdown_Timer"><img src = "images/ss_cdt.png" alt="Screenshot Image" width="750" height="360"></a>
 
-**This project is built with : **
+__This project is built with :__
 
 * HTML5
 * CSS
 * JavaScript
 
 If you find this helpful, feel free to give a  *star* 
-You can also follow me on [![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/soham-pal-87393a182/]
+You can also follow me on [LinkedIn](https://www.linkedin.com/in/soham-pal-87393a182/)
 
