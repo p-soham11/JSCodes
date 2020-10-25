@@ -14,6 +14,7 @@ __This project is built with :__
 * CSS
 * JavaScript
 
-If you find this helpful, feel free to give a  *star* 
+If you find this helpful, feel free to give a  *star*.
+
 You can also follow me on [LinkedIn](https://www.linkedin.com/in/soham-pal-87393a182/)
 
