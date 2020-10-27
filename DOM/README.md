@@ -28,7 +28,7 @@ Other Functions:
 3. .innerHTML
 
 
-My tweaks : 
+My tweaks needed to be done: 
 1. Show the active tab
 2. Add links there
 3. Gratitute and thank mentors in main README
