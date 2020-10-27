@@ -1,14 +1,65 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Counter Project</title>
-    <script src="script.js"></script>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>JavaScript DOM Tutorials</title>
 </head>
 <body>
-    <h2>Hello World !!</h2>
+    <div id="wrapper">
+        <header>
+            <div id="page-banner">
+                <h1 class="title">Book List</h1>
+                <p>Books for geeks</p>
+                <form id="search-books">
+                    <input type="text" placeholder="Search books..." />
+                </form>
+            </div>
+        </header>
+        <div id="book-list">
+            <h2 class="title">Books to Read</h2>
+            <ul>
+                <li>
+                    <span class="name">Name of the Wind</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">The Wise Man's Fear</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Kafka on the Shore</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">The Master and the Margarita</span>
+                    <span class="delete">delete</span>
+                </li>
+            </ul>
+        </div>
+        <form id="add-book">
+            <input type="checkbox" id="hide" />
+            <label for="hide">Hide all books</label>
+                <input type="text" placeholder="Add a book..." />
+                <button>Add</button>
+        </form>
+        <div id="tabbed-content">
+            <ul class="tabs">
+                <li data-target="#about" class="active">About</li>
+                <li data-target="#contact">Contact</li>
+            </ul>
+            <div class="panel active" id="about">
+                <p>Contact here</p>
+                <p>Hope it helped :)</p>
+            </div>
+            <div class="panel" id="contact">
+                <p>Contact Here</p>
+                <p>Hope it helped :)</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
