@@ -27,13 +27,8 @@ Other Functions:
 2. setInterval(function, milisecond)
 3. .innerHTML
 
+I will be adding a ToDo List with JavaScript along with basic HTML5 & CSS
 
-My tweaks needed to be done: 
-1. Show the active tab
-2. Add links there
-3. Gratitute and thank mentors in main README
-4. Mention photographer of the photo used in timer
-5. Make a barebone basic repo about how to setup
-6. Numbering the directories
+Special Thanks to Dev Ed, I am following his Youtube tutorial to get through this
 
-Special thanks to Net Ninja, totally taken help from there to design and code as of now
+Hope you will like this :)
