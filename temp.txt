@@ -25,3 +25,6 @@ if (myName === window.myName) { console.log("It's a true statement");}
 // OUTPUT : It's a true statement.
 
 // The modified line will not be executed in terminal. As window is a browser only context
+
+
+// See if its working from windows as well, Hope for the best
