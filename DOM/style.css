@@ -2,7 +2,64 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
 }
+
+/* 
+We need background-image to apply gradients 
+vh = viewport height - takes 100% of parent element's height
+*/
 body{
-    background-color: aquamarine;
+    background-image: linear-gradient(to right , #278ea5,#1f4287);
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+
+#heading{
+    font-size: 3.5rem;
+    color: #071e3d;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+#sub-heading{
+    font-size: 1.6rem;
+    text-align: center;
+    color: #22eaaa;
+}
+
+form{
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 35px;
+}
+
+input{
+    height: 45px;
+    width: 40%;
+    justify-content: center;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+form button{
+    display: inline-block;
+    background: content-box;
+    font-size: 2.1rem;
+    justify-content: center;
+    margin-left: 12px;
+    color: #faee1c;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+form button:hover{
+    color: #fc5185;
+}
+
+i{
+    margin-top: 5px;
 }
