@@ -8,13 +8,14 @@ const todoButton = document.querySelector(".todo-button")
 
 // Event Listener
 todoButton.addEventListener("click", addTodo);
+todoList.addEventListener("click", check);
 
 // Functions
 
 function addTodo(event){
     // Prevents from submitting and refreshing
     event.preventDefault();
-    console.log("Button Pressed")
+    console.log("ADD Button Pressed")
     // Task div
     const taskDiv = document.createElement("div");
     taskDiv.classList.add("task");
@@ -37,4 +38,19 @@ function addTodo(event){
     todoList.appendChild(taskDiv);
     // Clear Todo Input value
     todoInput.value="";
+}
+
+function check(event){
+    console.log(event.target);
+    const btn = event.target;
+    if(btn.classList[0] === "complete-btn" || btn.parentElement.classList[0] === "complete-btn"){
+        console.log("Complete Button pressed")
+        const par = btn.parentElement.parentElement;
+        par.classList.toggle("completed");
+    }
+    else if(btn.classList[0] === "delete-btn" || btn.parentElement.classList[0] === "delete-btn"){
+        console.log("Delete Pressed");
+        const par = btn.parentElement.parentElement;
+        par.remove();
+    }
 }
