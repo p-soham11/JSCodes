@@ -20,7 +20,7 @@ function addTodo(event){
     taskDiv.classList.add("task");
     // Create LI
     const newTodo = document.createElement("li");
-    newTodo.innerText = "Complete ToDo";
+    newTodo.innerText = todoInput.value;
     newTodo.classList.add("todo-item");
     taskDiv.appendChild(newTodo);
     // CheckMark Button
@@ -35,4 +35,6 @@ function addTodo(event){
     taskDiv.appendChild(deleteBtn);
     // Append to List
     todoList.appendChild(taskDiv);
+    // Clear Todo Input value
+    todoInput.value="";
 }
