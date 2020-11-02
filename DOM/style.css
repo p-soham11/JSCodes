@@ -32,7 +32,10 @@ form{
     justify-content: center;
     text-align: center;
     margin: auto;
+    display: flex;
+    align-items: center;
     margin-top: 35px;
+    margin-bottom: 25px;
 }
 
 input{
@@ -49,7 +52,7 @@ input{
 form button{
     display: inline-block;
     background: content-box;
-    font-size: 2.1rem;
+    font-size: 2.8rem;
     justify-content: center;
     margin-left: 12px;
     color: #faee1c;
@@ -62,4 +65,53 @@ form button:hover{
 
 i{
     margin-top: 5px;
+}
+
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list{
+    min-width: 35%;
+    list-style: none;
+}
+
+.task{
+    background: #e2f3f5;
+    color: #3555f3;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    height: 45px;
+    display: flex;
+    align-items: center;
+
+}
+.todo-item{
+    display: inline-block;
+    margin-left: 18px;
+    padding-right: 10px;
+}
+
+.task li{
+    flex: 1;
+}
+
+.complete-btn, .delete-btn{
+    padding: 10px;
+    background: content-box;
+    margin-right: 12px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.complete-btn{
+    color: #0ed496 ;
+    
+}
+.delete-btn{
+    color: #e61c59;
 }
