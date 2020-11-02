@@ -115,3 +115,8 @@ i{
 .delete-btn{
     color: #e61c59;
 }
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.42;
+}
