@@ -33,6 +33,7 @@ form{
     text-align: center;
     margin: auto;
     margin-top: 35px;
+    margin-bottom: 25px;
 }
 
 input{
@@ -62,4 +63,27 @@ form button:hover{
 
 i{
     margin-top: 5px;
+}
+
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list{
+    min-width: 35%;
+    list-style: none;
+}
+
+.task{
+    background: #e2f3f5;
+    color: #3555f3;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    height: 42px;
+
+}
+.todo-item{
+    display: inline-block;
 }
