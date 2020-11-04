@@ -51,6 +51,12 @@ function check(event){
     else if(btn.classList[0] === "delete-btn" || btn.parentElement.classList[0] === "delete-btn"){
         console.log("Delete Pressed");
         const par = btn.parentElement.parentElement;
-        par.remove();
+        // Animation
+        par.classList.add("fall");
+        // Deletion
+        par.addEventListener('transitionend', function(){
+            par.remove();
+        });
+       
     }
 }

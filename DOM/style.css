@@ -88,6 +88,7 @@ i{
     height: 45px;
     display: flex;
     align-items: center;
+    transition: all 0.5s ease;
 
 }
 .todo-item{
@@ -119,4 +120,9 @@ i{
 .completed{
     text-decoration: line-through;
     opacity: 0.42;
+}
+
+.fall{
+    transform: translateY(8rem);
+    opacity: 0;
 }
