@@ -25,3 +25,21 @@ console.log(person.showSkills());
 
 // TRICK
 console.table(person);
+
+
+// Functional Way of declaring an object
+
+var User = function(name, age, location) {
+    this.name = name;
+    this.age = age;
+    this.location = location;
+    this.print = function(){
+        console.log(`${name} is ${age} years old and lives in ${location}`);
+    };
+};
+
+// NEW Keyword is used to create the object
+// Here instance of User is made which contains different objects
+var budd = new User("Budd", 21, "Amsterdam");
+
+console.log(budd);
