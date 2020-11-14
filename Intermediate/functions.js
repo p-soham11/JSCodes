@@ -50,3 +50,11 @@ function getUserRole(name, role) {
 
 var access = getUserRole("Soham", "user");
 console.log(access);
+
+
+
+// Self Executing Anonymous Function
+// This function has no name and doesnot need any function call staement
+(function (){
+    console.log("Hello from Annonymous Function 😂");
+})();
