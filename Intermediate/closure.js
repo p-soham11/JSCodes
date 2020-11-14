@@ -12,5 +12,5 @@ console.log(value(3));  // y = 3
 // SO Output : 9
 
 
-// Another Way :
+// Another Way :  (Curring Process)
 console.log(Add(5)(10));    // x = 5  AND  y = 10
