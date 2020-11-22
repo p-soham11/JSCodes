@@ -23,7 +23,7 @@ if(data == 5)
 console.log("Data can be Integer or String")
 //  Operator  === also checks the datatype of the variabe
 if(data === "5")
-console.log("Data is sure an String")
+console.log("Data is surely a String")
 
 
 // In case for login through different platforms
