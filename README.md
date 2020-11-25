@@ -14,10 +14,11 @@ Get started with JavaScript inf the following order :
 
 1. BASICS
 2. Intermediate
-3. countdown_Timer (*optional*)
+3. DOM (Document Object Manipulation)
+4. countdown_Timer (*optional*)
+5. Advance-ish
 
-Rest of the codes and projects will be getting updated and each directory will have their own README.md file as well for better understanding.
+There will be README.md files of each folder for better understanding .
 If you want to contribute, feel free to create issues. And if find this helpful don't forget to *star* this repository
 
 Feel free to follow me on [LinkedIn](https://www.linkedin.com/in/soham-pal-87393a182/)
-
