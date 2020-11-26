@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+## Welcome to **JSCodes**  ✨💻
 
-You can use the [editor on GitHub](https://github.com/p-soham11/JSCodes/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+#### This is a repository consisting different concepts to get sratred with JavaScript
+##### The code files are distributed into files based upon their difficulty. Assuming you have node installed on your machine, most of the code files will run on terminal with simple command.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+node <filename>.js
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+> Few properties will not work in Terminal. Copy the snippet and run in browser console.
 
-### Jekyll Themes
+You can **Fork** 🍴 this repository to your own account
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/p-soham11/JSCodes/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+You can clone this repository in your local machine using the following command in your terminal.
+OR you can also download the ZIP file of the project.
 
-### Support or Contact
+```
+git clone https://github.com/p-soham11/JSCodes.git
+```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Get started with JavaScript inf the following order : 📋📜
+
+1. BASICS
+2. Intermediate
+3. DOM (Document Object Manipulation)
+4. countdown_Timer (*optional*)
+5. Advance-ish
+
+There will be README.md files of each folder for better understanding .
+If you want to contribute, feel free to create issues 🔨. And if find this helpful don't forget to *star* ⭐ this repository
+
+Feel free to follow me on [LinkedIn](https://www.linkedin.com/in/soham-pal-87393a182/) ✌
